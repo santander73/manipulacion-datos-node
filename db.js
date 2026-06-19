@@ -5,7 +5,7 @@ types.setTypeParser(1082, function (v) { return v; });
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'actores_',
+    database: 'actores_db',
     password: 'Postgres123',
     port: 5432,
 });
